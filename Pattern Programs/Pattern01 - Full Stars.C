@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+        int i = 0, j = 0, r = 0, c = 0;
+
+        printf("\n Enter row and column value for pattern = ");
+        scanf("%d%d",&r,&c);
+
+        printf("\n=================Pattern======================\n\n");
+
+        for(i = 1; i <= r; i++)
+        {
+                for(j = 1; j <= c; j++)
+                {
+                        printf(" * ");
+                }
+                printf("\n");
+        }
+
+        printf("\n=================================================\n");
+
+        printf("\n\n Thanks...");
+
+        getch();
+        return 0;
+
+}
